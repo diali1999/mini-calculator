@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mini-calculator/static/css/main.a617e044.chunk.css",
+    "main.js": "/mini-calculator/static/js/main.44398dbb.chunk.js",
+    "main.js.map": "/mini-calculator/static/js/main.44398dbb.chunk.js.map",
+    "runtime-main.js": "/mini-calculator/static/js/runtime-main.ace16393.js",
+    "runtime-main.js.map": "/mini-calculator/static/js/runtime-main.ace16393.js.map",
+    "static/js/2.41f63e03.chunk.js": "/mini-calculator/static/js/2.41f63e03.chunk.js",
+    "static/js/2.41f63e03.chunk.js.map": "/mini-calculator/static/js/2.41f63e03.chunk.js.map",
+    "static/js/3.31a8cd0a.chunk.js": "/mini-calculator/static/js/3.31a8cd0a.chunk.js",
+    "static/js/3.31a8cd0a.chunk.js.map": "/mini-calculator/static/js/3.31a8cd0a.chunk.js.map",
+    "index.html": "/mini-calculator/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/mini-calculator/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.41f63e03.chunk.js.LICENSE.txt": "/mini-calculator/static/js/2.41f63e03.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mini-calculator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ace16393.js",
+    "static/js/2.41f63e03.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.44398dbb.chunk.js"
+  ]
+}
