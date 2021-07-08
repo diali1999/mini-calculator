@@ -1,0 +1,10 @@
+.screen{
+    width: 292px;
+    height: 50px;
+    border-color: black;
+    margin-left: 40%;
+    display: inline-flex;
+    text-align: right;
+    color: black;
+}
+

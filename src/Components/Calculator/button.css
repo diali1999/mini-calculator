@@ -1,0 +1,14 @@
+.styling{
+    width: 300px;
+    height: 45px;
+    margin-left: 40%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    font-size: larger;
+    border-color: black;
+    border-radius: 4px;
+}
+
+.background{
+    background-color: black;
+}
