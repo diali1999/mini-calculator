@@ -8,7 +8,7 @@ import Calculator from '../Calculator/Calculator';
 
 function App() {
   return(
-    <div>
+    <div >
     <Navbar/>
     <Calculator/>
     </div>

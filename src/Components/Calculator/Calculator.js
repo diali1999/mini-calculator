@@ -41,8 +41,11 @@ function Calculator(){
                 setQuestion(ques);
                 break;
             default:
-                if(saved != "" && (value == '+' || value == '-' || value == '*' || value =='/'))
+                if(saved != "" && (value == '+' || value == '-' || value == '*' || value =='/' || value == '**'))
                 question = question.concat(saved);
+                if(value == '%')
+                question = question.concat('/100*');
+                else
                 question = question.concat(value);
                 setQuestion(question)
                 setSaved("");
@@ -58,7 +61,7 @@ function Calculator(){
             <div className="styling">
                 <button className="btn-group" onClick={handleClick} value={'('} >(</button>
                 <button className="btn-group" onClick={handleClick} value={')'}>)</button>
-                <button className="btn-group" onClick={handleClick} value={'%'}>%</button>
+                <button className="btn-group" onClick={handleClick} value={'**'}>pow</button>
                 <button className="clear" onClick={handleClick} value={'AC'}>AC</button>
                 
             </div>
