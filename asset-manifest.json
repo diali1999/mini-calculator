@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mini-calculator/static/css/main.968fe597.chunk.css",
-    "main.js": "/mini-calculator/static/js/main.c401a564.chunk.js",
-    "main.js.map": "/mini-calculator/static/js/main.c401a564.chunk.js.map",
+    "main.css": "/mini-calculator/static/css/main.d2e56cbd.chunk.css",
+    "main.js": "/mini-calculator/static/js/main.cb7554fd.chunk.js",
+    "main.js.map": "/mini-calculator/static/js/main.cb7554fd.chunk.js.map",
     "runtime-main.js": "/mini-calculator/static/js/runtime-main.23d57f91.js",
     "runtime-main.js.map": "/mini-calculator/static/js/runtime-main.23d57f91.js.map",
     "static/js/2.1b15fdd6.chunk.js": "/mini-calculator/static/js/2.1b15fdd6.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.eeecc320.chunk.js": "/mini-calculator/static/js/3.eeecc320.chunk.js",
     "static/js/3.eeecc320.chunk.js.map": "/mini-calculator/static/js/3.eeecc320.chunk.js.map",
     "index.html": "/mini-calculator/index.html",
-    "static/css/main.968fe597.chunk.css.map": "/mini-calculator/static/css/main.968fe597.chunk.css.map",
+    "static/css/main.d2e56cbd.chunk.css.map": "/mini-calculator/static/css/main.d2e56cbd.chunk.css.map",
     "static/js/2.1b15fdd6.chunk.js.LICENSE.txt": "/mini-calculator/static/js/2.1b15fdd6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.23d57f91.js",
     "static/js/2.1b15fdd6.chunk.js",
-    "static/css/main.968fe597.chunk.css",
-    "static/js/main.c401a564.chunk.js"
+    "static/css/main.d2e56cbd.chunk.css",
+    "static/js/main.cb7554fd.chunk.js"
   ]
 }
