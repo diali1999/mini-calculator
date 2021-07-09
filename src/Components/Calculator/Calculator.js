@@ -6,6 +6,7 @@ function Calculator(){
 
     let [question, setQuestion] = useState("");
     let [answer, setAnswer] = useState("");
+    let [saved, setSaved] = useState("");
 
     const handleClick = (e) => {
         let value = e.target.value;
@@ -24,12 +25,13 @@ function Calculator(){
                     catch(err){
                         setAnswer("Math error");
                     }
-                    if(ans == "undefined" || ans =="Infinity"){
+                    if(ans == "" || ans =="Infinity"){
                         setAnswer("Math error");
                     }
                     else{
                         setAnswer(ans);
-                        setQuestion(ans.toString());
+                        setQuestion("");
+                        setSaved(ans.toString());
                     }
                 }
                 break;
@@ -39,8 +41,11 @@ function Calculator(){
                 setQuestion(ques);
                 break;
             default:
+                if(saved != "" && (value == '+' || value == '-' || value == '*' || value =='/'))
+                question = question.concat(saved);
                 question = question.concat(value);
                 setQuestion(question)
+                setSaved("");
                 break;
         }
     }
