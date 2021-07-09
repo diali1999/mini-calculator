@@ -24,9 +24,11 @@ function Calculator(){
                     }
                     catch(err){
                         setAnswer("Math error");
+                        setQuestion("");
                     }
-                    if(ans == "" || ans =="Infinity"){
+                    if(ans === ""  || ans =="Infinity"){
                         setAnswer("Math error");
+                        setQuestion("");
                     }
                     else{
                         setAnswer(ans);
@@ -35,26 +37,21 @@ function Calculator(){
                     }
                 }
                 break;
-            case 'D':
-                let ques = question;
-                ques = ques.substr(0,ques.length - 1);
-                setQuestion(ques);
-                break;
+            // case 'D':
+            //     let ques = question;
+            //     ques = ques.substr(0,ques.length - 1);
+            //     setQuestion(ques);
+            //     break;
             default:
                 if(saved != "" && (value == '+' || value == '-' || value == '*' || value =='/' || value == '**'))
                 question = question.concat(saved);
-                if(value == '%')
-                question = question.concat('/100*');
-                else
                 question = question.concat(value);
                 setQuestion(question)
                 setSaved("");
                 break;
         }
     }
-    const handlePress = (e) => {
-        handleClick(e);   
-    }
+
     return(
         <div >
             <OutputRow question={question} answer={answer}/>
