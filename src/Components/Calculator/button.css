@@ -1,12 +1,32 @@
 .styling{
-    width: 300px;
-    height: 45px;
     margin-left: 40%;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
+    display: inline-flex;    
+}
+
+.btn-group{
+    width: 75px;
+    height: 45px;
     font-size: larger;
-    border-color: black;
     border-radius: 4px;
+    background-color: white;
+}
+
+.clear{
+    width: 75px;
+    height: 45px;
+    font-size: larger;
+    border-radius: 4px;
+    background-color: red;
+
+}
+
+.equal{
+    width: 75px;
+    height: 45px;
+    font-size: larger;
+    border-radius: 4px;
+    background-color:green;
+
 }
 
 .background{

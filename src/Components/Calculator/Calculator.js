@@ -51,35 +51,35 @@ function Calculator(){
         <div >
             <OutputRow question={question} answer={answer}/>
             <div className="styling">
-                <button onClick={handleClick} value={'('} >(</button>
-                <button onClick={handleClick} value={')'}>)</button>
-                <button onClick={handleClick} value={'%'}>%</button>
-                <button onClick={handleClick} value={'AC'}>AC</button>
+                <button className="btn-group" onClick={handleClick} value={'('} >(</button>
+                <button className="btn-group" onClick={handleClick} value={')'}>)</button>
+                <button className="btn-group" onClick={handleClick} value={'%'}>%</button>
+                <button className="clear" onClick={handleClick} value={'AC'}>AC</button>
                 
             </div>
             <div className="styling">
-            <button onClick={handleClick} value={'7'}>7</button>
-                <button onClick={handleClick} value={'8'}>8</button>
-                <button onClick={handleClick} value={'9'}>9</button>
-                <button onClick={handleClick} value={'/'}>/</button> 
+            <button className="btn-group" onClick={handleClick} value={'7'}>7</button>
+                <button className="btn-group" onClick={handleClick} value={'8'}>8</button>
+                <button className="btn-group" onClick={handleClick} value={'9'}>9</button>
+                <button className="btn-group" onClick={handleClick} value={'/'}>/</button> 
             </div>
             <div className="styling">
-            <button onClick={handleClick} value={'4'}>4</button>
-                <button onClick={handleClick} value={'5'}>5</button>
-                <button onClick={handleClick} value={'6'}>6</button>
-                <button onClick={handleClick} value={'*'}>*</button> 
+            <button className="btn-group" onClick={handleClick} value={'4'}>4</button>
+                <button className="btn-group" onClick={handleClick} value={'5'}>5</button>
+                <button className="btn-group" onClick={handleClick} value={'6'}>6</button>
+                <button className="btn-group" onClick={handleClick} value={'*'}>*</button> 
             </div>
             <div className="styling">
-            <button onClick={handleClick} value={'1'}>1</button>
-                <button onClick={handleClick} value={'2'}>2</button>
-                <button onClick={handleClick} value={'3'}>3</button>
-                <button onClick={handleClick} value={'-'}>-</button> 
+            <button className="btn-group" onClick={handleClick} value={'1'}>1</button>
+                <button className="btn-group" onClick={handleClick} value={'2'}>2</button>
+                <button className="btn-group" onClick={handleClick} value={'3'}>3</button>
+                <button className="btn-group" onClick={handleClick} value={'-'}>-</button> 
             </div>
             <div className="styling">
-            <button onClick={handleClick} value={'0'}>0</button>
-                <button onClick={handleClick} value={'.'}>.</button>
-                <button onClick={handleClick} value={'='}>=</button>
-                <button onClick={handleClick} value={'+'}>+</button> 
+            <button className="btn-group" onClick={handleClick} value={'0'}>0</button>
+                <button className="btn-group" onClick={handleClick} value={'.'}>.</button>
+                <button className="equal" onClick={handleClick} value={'='}>=</button>
+                <button className="btn-group" onClick={handleClick} value={'+'}>+</button> 
             </div>
         </div>
     )
