@@ -2,10 +2,23 @@
     width: 292px;
     height: 50px;
     border-color: black;
-    margin-left: 40%;
+    margin-left: 38%;
     display: inline-flex;
     text-align: right;
     color: black;
     font-size: x-large;
+}
+@media screen and (max-width: 960px) {
+
+    .screen{
+        width: 292px;
+        height: 50px;
+        border-color: black;
+        margin-left: 20%;
+        display: inline-flex;
+        text-align: right;
+        color: black;
+        font-size: x-large;
+    }
 }
 

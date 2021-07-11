@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar(){
     return(
         <nav className="title">
-            <h1>Calculate within a sec...</h1>
+            <h1>Mini Calculator</h1>
         </nav>
     )
 }

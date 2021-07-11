@@ -1,6 +1,7 @@
 .styling{
-    margin-left: 40%;
+    margin-left: 38%;
     display: inline-flex;  
+    position: relative;
 }
 
 .btn-group{
@@ -30,6 +31,36 @@
 
 }
 
-.background{
-    background-color: black;
+@media screen and (max-width: 960px) {
+    .styling{
+        margin-left: 20%;
+        display: inline-flex;  
+        position: relative;
+    }
+    .btn-group{
+        width: 75px;
+        height: 45px;
+        font-size: larger;
+        border-radius: 4px;
+        background-color: rgb(37, 36, 36);
+        color: white;  
+    }
+    
+    .clear{
+        width: 75px;
+        height: 45px;
+        font-size: larger;
+        border-radius: 4px;
+        background-color: red;
+    
+    }
+    
+    .equal{
+        width: 75px;
+        height: 45px;
+        font-size: larger;
+        border-radius: 4px;
+        background-color:green;
+    
+    }
 }
